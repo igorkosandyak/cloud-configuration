@@ -1,0 +1,10 @@
+server:
+ port: 8761
+spring:
+  cloud:
+    stream:
+      bindings:
+        input: eureka
+management:
+  security:
+    enabled: false
