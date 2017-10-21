@@ -5,7 +5,7 @@ spring:
     stream:
       bindings:
         input: reservations
-message: Hello here!1
+message: Hello here!19898
 management:
   security:
     enabled: false
