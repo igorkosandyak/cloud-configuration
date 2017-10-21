@@ -1,2 +1,3 @@
 server.post=8000
+spring.cloud.stream.bindings.inout=reservations
 message=Hello here
