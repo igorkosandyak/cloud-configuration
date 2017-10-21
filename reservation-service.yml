@@ -6,3 +6,6 @@ spring:
       bindings:
         input: reservations
 message: Hello here!!!!!
+management:
+  security:
+    enabled: false
