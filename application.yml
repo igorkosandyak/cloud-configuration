@@ -1,3 +1,8 @@
-server.post=8000
-spring.cloud.stream.bindings.inout=reservations
-message=Hello here
+server:
+ port: 8000
+spring:
+  cloud:
+    stream:
+      bindings:
+        input: reservations
+message: Hello here
