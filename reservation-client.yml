@@ -1,0 +1,10 @@
+server:
+ port: 9999
+spring:
+  cloud:
+    stream:
+      bindings:
+        input: reservation-client
+management:
+  security:
+    enabled: false
