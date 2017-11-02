@@ -1,11 +1,5 @@
 server:
   port: 1111
-hystrix:
-  metrics:
-    enabled: true
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 12000
+zuul:
+  host:
+    socket-timeout-millis: 30000
