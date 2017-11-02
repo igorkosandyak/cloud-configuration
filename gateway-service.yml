@@ -3,3 +3,5 @@ server:
 zuul:
   host:
     socket-timeout-millis: 30000
+ribbon:
+  ReadTimeout: 10000
