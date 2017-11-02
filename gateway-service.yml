@@ -5,3 +5,9 @@ zuul:
     socket-timeout-millis: 30000
 ribbon:
   ReadTimeout: 10000
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
